@@ -13,6 +13,7 @@ nota_pasa(3.0).
 pocerntaje_t_notas(100).
 asiste_PTQ('si','no').
 estudiante('mateo_nariño').
+materia('modelos2').
 inscrito('mateo_nariño','modelos2').
 asiste('mateo_nariño','modelos2',80).
 presenta('mateo_nariño', 'parcial',1,'modelos2', 'si').
