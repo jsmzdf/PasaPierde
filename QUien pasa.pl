@@ -11,7 +11,7 @@ tope_menor(0).
 tope_mayor(5).
 nota_pasa(3.0).
 pocerntaje_t_notas(100).
-
+asiste_PTQ('si','no')
 matriculado('mateo_nariño','u distrital').
 rol('mateo_nariño','estudiante').
 inscrito('Modelos2','mateo_nariño').
