@@ -31,6 +31,7 @@ nota('mateo_nariño','quiz',2,4,'modelos2').
 nota('mateo_nariño','tarea',1,4,'modelos2').
 nota('mateo_nariño','tarea',2,4,'modelos2').
 cancela('mateo_nariño', 'modelos2', 'no').
+inscrito_materia(A,B) :- inscrito(A,B),estudiante(A),materia(B).
 
 
 matriculado('sebastian_martinez','u distrital').
