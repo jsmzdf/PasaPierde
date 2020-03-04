@@ -1,118 +1,118 @@
-pasa_asistenca(70)
-califica('parcial','quiz','tarea')
-peso('pacrial',1,25)
-peso('parcial',2,25)
-peso('pacrial',3,30)
-peso('quiz',1,5)
-peso('quiz',2,5)
-peso('tarea',1,5)
-peso('tarea',2,5)
-tope_menor(0)
-tope_mayor(5)
-nota_pasa(3.0)
-pocerntaje_t_notas(100)
+pasa_asistenca(70).
+califica('parcial','quiz','tarea').
+peso('pacrial',1,25).
+peso('parcial',2,25).
+peso('pacrial',3,30).
+peso('quiz',1,5).
+peso('quiz',2,5).
+peso('tarea',1,5).
+peso('tarea',2,5).
+tope_menor(0).
+tope_mayor(5).
+nota_pasa(3.0).
+pocerntaje_t_notas(100).
 
-matriculado('mateo_nariño','u distrital')
-rol('mateo_nariño','estudiante')
+matriculado('mateo_nariño','u distrital').
+rol('mateo_nariño','estudiante').
 inscrito('Modelos2','mateo_nariño').
 asiste('mateo_nariño','modelos2',80).
-Presenta('mateo_nariño', 'parcial',1,'modelos2', 'si')
-Presenta('mateo_nariño', 'parcial',2,'modelos2', 'si')
-Presenta('mateo_nariño', 'parcial',3,'modelos2', 'si')
-Presenta('mateo_nariño', 'quiz',1,'modelos2', 'si')
-Presenta('mateo_nariño', 'quiz',2,'modelos2', 'si')
-Presenta('mateo_nariño', 'tarea',1,'modelos2', 'si')
-Presenta('mateo_nariño', 'tarea',2,'modelos2', 'si')
-nota('mateo_nariño','parcial',1,4,'modelos2')
-nota('mateo_nariño','parcial',2,4,'modelos2')
-nota('mateo_nariño','parcial',3,4,'modelos2')
-nota('mateo_nariño','quiz',1,4,'modelos2')
-nota('mateo_nariño','quiz',2,4,'modelos2')
-nota('mateo_nariño','tarea',1,4,'modelos2')
-nota('mateo_nariño','tarea',2,4,'modelos2')
-Cancela('mateo_nariño', 'modelos2', 'no')
+Presenta('mateo_nariño', 'parcial',1,'modelos2', 'si').
+Presenta('mateo_nariño', 'parcial',2,'modelos2', 'si').
+Presenta('mateo_nariño', 'parcial',3,'modelos2', 'si').
+Presenta('mateo_nariño', 'quiz',1,'modelos2', 'si').
+Presenta('mateo_nariño', 'quiz',2,'modelos2', 'si').
+Presenta('mateo_nariño', 'tarea',1,'modelos2', 'si').
+Presenta('mateo_nariño', 'tarea',2,'modelos2', 'si').
+nota('mateo_nariño','parcial',1,4,'modelos2').
+nota('mateo_nariño','parcial',2,4,'modelos2').
+nota('mateo_nariño','parcial',3,4,'modelos2').
+nota('mateo_nariño','quiz',1,4,'modelos2').
+nota('mateo_nariño','quiz',2,4,'modelos2').
+nota('mateo_nariño','tarea',1,4,'modelos2').
+nota('mateo_nariño','tarea',2,4,'modelos2').
+Cancela('mateo_nariño', 'modelos2', 'no').
 
-matriculado('sebastian_martinez','u distrital')
-rol('sebastian_martinez','estudiante')
+matriculado('sebastian_martinez','u distrital').
+rol('sebastian_martinez','estudiante').
 inscrito('Modelos2','sebastian_martinez').
 asiste('sebastian_martinez','modelos2',90).
-Presenta('sebastian_martinez', 'parcial',1,'modelos2', 'si')
-Presenta('sebastian_martinez', 'parcial',2,'modelos2', 'si')
-Presenta('sebastian_martinez', 'parcial',3,'modelos2', 'si')
-Presenta('sebastian_martinez', 'quiz',1,'modelos2', 'si')
-Presenta('sebastian_martinez', 'quiz',2,'modelos2', 'si')
-Presenta('sebastian_martinez', 'tarea',1,'modelos2', 'si')
-Presenta('sebastian_martinez', 'tarea',2,'modelos2', 'si')
-nota('sebastian_martinez','parcial',1,4,'modelos2')
-nota('sebastian_martinez','parcial',2,4,'modelos2')
-nota('sebastian_martinez','parcial',3,4,'modelos2')
-nota('sebastian_martinez','quiz',1,4,'modelos2')
-nota('sebastian_martinez','quiz',2,4,'modelos2')
-nota('sebastian_martinez','tarea',1,4,'modelos2')
-nota('sebastian_martinez','tarea',2,4,'modelos2')
-Cancela('sebastian_martinez', 'modelos2', 'no')
+Presenta('sebastian_martinez', 'parcial',1,'modelos2', 'si').
+Presenta('sebastian_martinez', 'parcial',2,'modelos2', 'si').
+Presenta('sebastian_martinez', 'parcial',3,'modelos2', 'si').
+Presenta('sebastian_martinez', 'quiz',1,'modelos2', 'si').
+Presenta('sebastian_martinez', 'quiz',2,'modelos2', 'si').
+Presenta('sebastian_martinez', 'tarea',1,'modelos2', 'si').
+Presenta('sebastian_martinez', 'tarea',2,'modelos2', 'si').
+nota('sebastian_martinez','parcial',1,4,'modelos2').
+nota('sebastian_martinez','parcial',2,4,'modelos2').
+nota('sebastian_martinez','parcial',3,4,'modelos2').
+nota('sebastian_martinez','quiz',1,4,'modelos2').
+nota('sebastian_martinez','quiz',2,4,'modelos2').
+nota('sebastian_martinez','tarea',1,4,'modelos2').
+nota('sebastian_martinez','tarea',2,4,'modelos2').
+Cancela('sebastian_martinez', 'modelos2', 'no').
 
 
-matriculado('sebastian_mancera','u distrital')
-rol('sebastian_mancera','estudiante')
+matriculado('sebastian_mancera','u distrital').
+rol('sebastian_mancera','estudiante').
 inscrito('Modelos2','sebastian_mancera').
 asiste('sebastian_mancera','modelos2',70).
-Presenta('sebastian_mancera', 'parcial',1,'modelos2', 'no')
-Presenta('sebastian_mancera', 'parcial',2,'modelos2', 'si')
-Presenta('sebastian_mancera', 'parcial',3,'modelos2', 'si')
-Presenta('sebastian_mancera', 'quiz',1,'modelos2', 'si')
-Presenta('sebastian_mancera', 'quiz',2,'modelos2', 'si')
-Presenta('sebastian_mancera', 'tarea',1,'modelos2', 'no')
-Presenta('sebastian_mancera', 'tarea',2,'modelos2', 'si')
-nota('sebastian_mancera','parcial',1,0,'modelos2')
-nota('sebastian_mancera','parcial',2,4,'modelos2')
-nota('sebastian_mancera','parcial',3,4,'modelos2')
-nota('sebastian_mancera','quiz',1,4,'modelos2')
-nota('sebastian_mancera','quiz',2,4,'modelos2')
-nota('sebastian_mancera','tarea',1,0,'modelos2')
-nota('sebastian_mancera','tarea',2,4,'modelos2')
-Cancela('sebastian_mancera', 'modelos2', 'no')
+Presenta('sebastian_mancera', 'parcial',1,'modelos2', 'no').
+Presenta('sebastian_mancera', 'parcial',2,'modelos2', 'si').
+Presenta('sebastian_mancera', 'parcial',3,'modelos2', 'si').
+Presenta('sebastian_mancera', 'quiz',1,'modelos2', 'si').
+Presenta('sebastian_mancera', 'quiz',2,'modelos2', 'si').
+Presenta('sebastian_mancera', 'tarea',1,'modelos2', 'no').
+Presenta('sebastian_mancera', 'tarea',2,'modelos2', 'si').
+nota('sebastian_mancera','parcial',1,0,'modelos2').
+nota('sebastian_mancera','parcial',2,4,'modelos2').
+nota('sebastian_mancera','parcial',3,4,'modelos2').
+nota('sebastian_mancera','quiz',1,4,'modelos2').
+nota('sebastian_mancera','quiz',2,4,'modelos2').
+nota('sebastian_mancera','tarea',1,0,'modelos2').
+nota('sebastian_mancera','tarea',2,4,'modelos2').
+Cancela('sebastian_mancera', 'modelos2', 'no').
 
-matriculado('cristia_benitez','u distrital')
-rol('cristia_benitez','estudiante')
+matriculado('cristia_benitez','u distrital').
+rol('cristia_benitez','estudiante').
 inscrito('Modelos2','cristia_benitez').
 asiste('cristia_benitez','modelos2',50).
-Presenta('cristia_benitez', 'parcial',1,'modelos2', 'si')
-Presenta('cristia_benitez', 'parcial',2,'modelos2', 'si')
-Presenta('cristia_benitez', 'parcial',3,'modelos2', 'no')
-Presenta('cristia_benitez', 'quiz',1,'modelos2', 'no')
-Presenta('cristia_benitez', 'quiz',2,'modelos2', 'no')
-Presenta('cristia_benitez', 'tarea',1,'modelos2', 'no')
-Presenta('cristia_benitez', 'tarea',2,'modelos2', 'no')
-nota('cristia_benitez','parcial',1,3,'modelos2')
-nota('cristia_benitez','parcial',2,2,'modelos2')
-nota('cristia_benitez','parcial',3,0,'modelos2')
-nota('cristia_benitez','quiz',1,0,'modelos2')
-nota('cristia_benitez','quiz',2,0,'modelos2')
-nota('cristia_benitez','tarea',1,0,'modelos2')
-nota('cristia_benitez','tarea',2,0,'modelos2')
-Cancela('cristia_benitez', 'modelos2', 'no')
+Presenta('cristia_benitez', 'parcial',1,'modelos2', 'si').
+Presenta('cristia_benitez', 'parcial',2,'modelos2', 'si').
+Presenta('cristia_benitez', 'parcial',3,'modelos2', 'no').
+Presenta('cristia_benitez', 'quiz',1,'modelos2', 'no').
+Presenta('cristia_benitez', 'quiz',2,'modelos2', 'no').
+Presenta('cristia_benitez', 'tarea',1,'modelos2', 'no').
+Presenta('cristia_benitez', 'tarea',2,'modelos2', 'no').
+nota('cristia_benitez','parcial',1,3,'modelos2').
+nota('cristia_benitez','parcial',2,2,'modelos2').
+nota('cristia_benitez','parcial',3,0,'modelos2').
+nota('cristia_benitez','quiz',1,0,'modelos2').
+nota('cristia_benitez','quiz',2,0,'modelos2').
+nota('cristia_benitez','tarea',1,0,'modelos2').
+nota('cristia_benitez','tarea',2,0,'modelos2').
+Cancela('cristia_benitez', 'modelos2', 'no').
 
 
-matriculado('juan_gaitan','u distrital')
-rol('juan_gaitan','estudiante')
+matriculado('juan_gaitan','u distrital').
+rol('juan_gaitan','estudiante').
 inscrito('Modelos2','juan_gaitan').
 asiste('juan_gaitan','modelos2',50).
-Presenta('juan_gaitan', 'parcial',1,'modelos2', 'si')
-Presenta('juan_gaitan', 'parcial',2,'modelos2', 'si')
-Presenta('juan_gaitan', 'parcial',3,'modelos2', 'no')
-Presenta('juan_gaitan', 'quiz',1,'modelos2', 'si')
-Presenta('juan_gaitan', 'quiz',2,'modelos2', 'si')
-Presenta('juan_gaitan', 'tarea',1,'modelos2', 'no')
-Presenta('juan_gaitan', 'tarea',2,'modelos2', 'no')
-nota('juan_gaitan','parcial',1,4,'modelos2')
-nota('juan_gaitan','parcial',2,4,'modelos2')
-nota('juan_gaitan','parcial',3,0,'modelos2')
-nota('juan_gaitan','quiz',1,4,'modelos2')
-nota('juan_gaitan','quiz',2,4,'modelos2')
-nota('juan_gaitan','tarea',1,0,'modelos2')
-nota('juan_gaitan','tarea',2,0,'modelos2')
-Cancela('juan_gaitan', 'modelos2', 'si')
+Presenta('juan_gaitan', 'parcial',1,'modelos2', 'si').
+Presenta('juan_gaitan', 'parcial',2,'modelos2', 'si').
+Presenta('juan_gaitan', 'parcial',3,'modelos2', 'no').
+Presenta('juan_gaitan', 'quiz',1,'modelos2', 'si').
+Presenta('juan_gaitan', 'quiz',2,'modelos2', 'si').
+Presenta('juan_gaitan', 'tarea',1,'modelos2', 'no').
+Presenta('juan_gaitan', 'tarea',2,'modelos2', 'no').
+nota('juan_gaitan','parcial',1,4,'modelos2').
+nota('juan_gaitan','parcial',2,4,'modelos2').
+nota('juan_gaitan','parcial',3,0,'modelos2').
+nota('juan_gaitan','quiz',1,4,'modelos2').
+nota('juan_gaitan','quiz',2,4,'modelos2').
+nota('juan_gaitan','tarea',1,0,'modelos2').
+nota('juan_gaitan','tarea',2,0,'modelos2').
+Cancela('juan_gaitan', 'modelos2', 'si').
 
 matriculado('john_zabala','u distrital')
 rol('john_zabala','estudiante')
