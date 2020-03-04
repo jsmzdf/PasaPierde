@@ -1,8 +1,8 @@
 pasa_asistenca(70).
 califica('parcial','quiz','tarea').
-peso('pacrial',1,25).
+peso('parcial',1,25).
 peso('parcial',2,25).
-peso('pacrial',3,30).
+peso('parcial',3,30).
 peso('quiz',1,5).
 peso('quiz',2,5).
 peso('tarea',1,5).
