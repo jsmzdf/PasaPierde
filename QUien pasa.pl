@@ -173,4 +173,4 @@ nota('andres_mateo','tarea',1,0,'modelos2').
 nota('andres_mateo','tarea',2,0,'modelos2').
 Cancela('andres_mateo', 'modelos2', 'no').
 
-inscrito_materia(A,B) :- inscrito(A,B),estudiante(A),materia(b).
+inscrito_materia(A,B) :- inscrito(A,B),estudiante(A),materia(B).
