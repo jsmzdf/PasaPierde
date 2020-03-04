@@ -12,6 +12,7 @@ tope_mayor(5).
 nota_pasa(3.0).
 pocerntaje_t_notas(100).
 asiste_PTQ('si','no').
+estudiante('mateo_nariño').
 inscrito('mateo_nariño','modelos2').
 asiste('mateo_nariño','modelos2',80).
 presenta('mateo_nariño', 'parcial',1,'modelos2', 'si').
@@ -171,4 +172,4 @@ nota('andres_mateo','tarea',1,0,'modelos2').
 nota('andres_mateo','tarea',2,0,'modelos2').
 Cancela('andres_mateo', 'modelos2', 'no').
 
-inscrito_materia(A,B) :- inscrito(A,B).
+inscrito_materia(A,B) :- inscrito(A,B),estudiante(A).
