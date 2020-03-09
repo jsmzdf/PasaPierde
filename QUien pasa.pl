@@ -11,40 +11,37 @@ pocerntaje_t_notas(100).
 asiste_PTQ('si','no').
 materia('modelos2').
 estudiante('mateo_nariño').
-inscrito('mateo_nariño','modelos2').
-asiste('mateo_nariño','modelos2',70).
-nota1('mateo_nariño','parcial',1,'modelos2').
-nota2('mateo_nariño','parcial',1,'modelos2').
-nota3('mateo_nariño','parcialf',1,'modelos2').
-nota1('mateo_nariño','quiz',4,'modelos2').
-nota2('mateo_nariño','quiz',4,'modelos2').
-nota1('mateo_nariño','tarea',4,'modelos2').
-nota2('mateo_nariño','tarea',4,'modelos2').
-cancela('mateo_nariño', 'modelos2', 'no').
-
-
 estudiante('juan_mancera').
-inscrito('juan_mancera','modelos2').
-asiste('juan_mancera','modelos2',70).
-nota1('juan_mancera','parcial',4,'modelos2').
-nota2('juan_mancera','parcial',4,'modelos2').
-nota3('juan_mancera','parcialf',4,'modelos2').
-nota1('juan_mancera','quiz',4,'modelos2').
-nota2('juan_mancera','quiz',4,'modelos2').
-nota1('juan_mancera','tarea',4,'modelos2').
-nota2('juan_mancera','tarea',4,'modelos2').
-cancela('juan_mancera', 'modelos2', 'no').
-
 estudiante('sebastian_mrtinez').
+inscrito('mateo_nariño','modelos2').
+inscrito('juan_mancera','modelos2').
 inscrito('sebastian_mrtinez','modelos2').
+asiste('mateo_nariño','modelos2',70).
+asiste('juan_mancera','modelos2',70).
 asiste('sebastian_mrtinez','modelos2',70).
+nota1('mateo_nariño','parcial',4,'modelos2').
+nota1('mateo_nariño','quiz',4,'modelos2').
+nota1('mateo_nariño','tarea',4,'modelos2').
+nota1('juan_mancera','parcial',4,'modelos2').
+nota1('juan_mancera','quiz',4,'modelos2').
+nota1('juan_mancera','tarea',4,'modelos2').
 nota1('sebastian_mrtinez','parcial',4,'modelos2').
-nota2('sebastian_mrtinez','parcial',4,'modelos2').
-nota3('sebastian_mrtinez','parcialf',4,'modelos2').
 nota1('sebastian_mrtinez','quiz',4,'modelos2').
-nota2('sebastian_mrtinez','quiz',4,'modelos2').
 nota1('sebastian_mrtinez','tarea',4,'modelos2').
+nota2('mateo_nariño','parcial',4,'modelos2').
+nota2('mateo_nariño','quiz',4,'modelos2').
+nota2('mateo_nariño','tarea',4,'modelos2').
+nota2('juan_mancera','parcial',4,'modelos2').
+nota2('juan_mancera','quiz',4,'modelos2').
+nota2('juan_mancera','tarea',4,'modelos2').
+nota2('sebastian_mrtinez','quiz',4,'modelos2').
 nota2('sebastian_mrtinez','tarea',4,'modelos2').
+nota2('sebastian_mrtinez','parcial',4,'modelos2').
+nota3('mateo_nariño','parcialf',4,'modelos2').
+nota3('juan_mancera','parcialf',4,'modelos2').
+nota3('sebastian_mrtinez','parcialf',4,'modelos2').
+cancela('mateo_nariño', 'modelos2', 'no').
+cancela('juan_mancera', 'modelos2', 'no').
 cancela('sebastian_mrtinez', 'modelos2', 'no').
 
 
