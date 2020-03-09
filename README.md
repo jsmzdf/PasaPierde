@@ -1,3 +1,3 @@
 # PasaPierde
-###Jhon Sebastian Martinez Zabala
-###Juan Sebastian Mancera Gaitan
+### Jhon Sebastian Martinez Zabala
+### Juan Sebastian Mancera Gaitan
